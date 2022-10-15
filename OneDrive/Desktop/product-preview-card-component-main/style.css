@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap');
+
+:root {
+    --Dark-cyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+    --Very-dark-blue: hsl(212, 21%, 14%);
+    --Dark-grayish-blue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+    --Dark-cary: hsl(158, 39%, 22%);
+
+
+}
+
+
+* {
+    margin: 50;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-size: 14px;
+    display: flex;
+    background: var(--Cream)
+}
+
+img {
+
+    width: 450px;
+    height: 700px
+}
+
+.card {
+    display: flex;
+    width: 900px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 150px auto;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.top {
+    margin-top: 10%;
+    margin-left: 10%;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+    color: var(--Dark-grayish-blue);
+}
+
+h1 {
+    margin-left: 10%;
+    font-family: "fraunces", sans-serif;
+    font-weight: 700;
+    font-size: 3.3rem;
+
+}
+
+.content {
+    margin-right: 5.5%;
+    margin-left: 10%;
+    font-size: 1.4rem;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 1.7;
+    color: var(--Dark-grayish-blue);
+}
+
+.cart {
+    width: 10%;
+    height: 10%;
+}
+
+.price {
+    font-family: 'fraunces', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-left: 10%;
+    color: var(--Dark-cyan);
+}
+
+.last {
+    font-family: 'montserrat', sans-serif;
+    font-weight: normal;
+    margin-left: 5%;
+    font-size: 20px;
+    color: var(--Dark-grayish-blue);
+    text-decoration: line-through;
+    line-height: 20px;
+}
+
+.btncart {
+    font-family: "montserrat", sans-serif;
+    background-color: var(--Dark-cyan);
+    color: white;
+    margin-left: 10%;
+    padding: 0.9em 7em;
+    width: 20rem;
+    border-radius: 20px;
+    border: none;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    margin: none;
+    cursor: pointer;
+}
+
+.cart {
+
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+
+.btncart:hover {
+    background-color: var(--Dark-cary);
+}
+
+#cart {
+    margin-left: 9.5%;
+    font-size: 17px
+}
