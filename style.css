@@ -28,11 +28,10 @@ body {
 .card{
     width: 450px;
     background-color: white;
-    color: var(--Desaturated-blue);
     border-radius: 20px;
     overflow: hidden;
     margin: 50px auto;
-    
+
 }
 .title{
     color: var(--Dark-blue);
